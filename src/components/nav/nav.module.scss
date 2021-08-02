@@ -1,0 +1,61 @@
+h1 {
+  color:#193148;
+}
+i {
+  color: #000;
+  font-style: normal;
+}
+span {
+  color: #000;
+}
+.containerNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 0 4rem;
+  top: 0;
+  height: 6rem;
+  background: #fff;
+  -webkit-box-shadow: 2px 7px 50px -2px #00000060; 
+          box-shadow: 2px 7px 50px -2px #00000060;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .barraRed {
+    color: #da251d;
+    font-weight: 700;
+    margin-left: 5px;
+  }
+  .barraAzul {
+    color: #0077b9;
+    font-weight: 700;
+    margin-right: 5px;
+  }
+}
+.optionsNav {
+  display: flex;
+
+  i:nth-child(1){
+    margin-right: 1rem;
+  }
+}
+
+@media(max-width: 420px) {
+  span {
+    font-size: 80%;
+  }
+  .containerNav {
+    padding: 0 2rem 1rem 2rem;
+    flex-direction: column;
+  }
+}
+@media(max-width: 300px) {
+  .containerNav {
+    padding: 0 2rem 1rem 2rem;
+  }
+}

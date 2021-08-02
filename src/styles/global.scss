@@ -1,0 +1,78 @@
+$background: #353b48;
+$white: #fff;
+$black: #000;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin-top: 10rem;
+  background: #c7ebff;
+  font-size: clamp(14px, 1.6rem, 2vw);
+  font-family: 'Poppins', sans-serif;
+  color: $white;
+}
+button,
+input,
+textarea {
+  font-size: clamp(14px, 1.6rem, 2vw);
+  font-family: 'Poppins', sans-serif;
+  color: $white;
+}
+h1 {
+  font-size: 2rem;
+}
+i {
+  font-size: 1.6rem;
+}
+#container {
+  width: 100vw;
+  margin: 0 auto;
+}
+#containerNav {
+  width: 100%;
+}
+#content {
+  max-width: 90%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+#section_1{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+#section_2{
+  display: flex;
+  flex-wrap: wrap;
+}
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@media(max-width: 1080px) {
+  html {
+    font-size: 57%;
+  }
+}
+@media(max-width: 720px) {
+  html {
+    font-size: 50%;
+  }
+}
