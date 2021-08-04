@@ -43,17 +43,26 @@ i {
   max-width: 90%;
   margin:0 auto;
   display: flex;
-  flex-wrap: wrap;
-}
-#section_1{
-  display: flex;
   flex-direction: column;
+}
+#sections{
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 1rem;
 }
-#section_2{
-  display: flex;
-  flex-wrap: wrap;
+.section_1{
+  flex-direction: column;
 }
+.section_2{
+  flex-direction: row;
+  margin-left: -1rem;
+}
+.section_3{
+  flex-direction: column;
+  margin-left: -1rem;
+  flex-wrap: nowrap;
+}
+
 .sr-only {
   position: absolute;
   height: 1px;
@@ -69,6 +78,11 @@ i {
 @media(max-width: 1080px) {
   html {
     font-size: 57%;
+  }
+}
+@media(max-width: 820px) {
+  #v_hidden {
+    visibility: visible;
   }
 }
 @media(max-width: 720px) {

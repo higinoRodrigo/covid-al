@@ -1,9 +1,9 @@
 .card {
   flex: 1;
-  border: 1px solid rgba(149, 149, 149, 0.466);
   width: 100%;
   margin: 1rem;
   padding: 1rem;
+  border: 1px solid rgba(149, 149, 149, 0.466);
   border-radius: 6px;
   background-color: #fff;
 
@@ -22,7 +22,7 @@
     flex-wrap: wrap;
 
     span{
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: bold;
      }
 
