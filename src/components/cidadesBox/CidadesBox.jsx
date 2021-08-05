@@ -153,6 +153,8 @@ export default function CidadesBox() {
             </tbody>
           </table>
         </div>
+
+        <span>Fonte: Secretarias Municipais de Saúde. Alagoas, 2020</span>
       </div>
     </div>
   )

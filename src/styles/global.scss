@@ -19,6 +19,19 @@ body {
   font-family: 'Poppins', sans-serif;
   color: $white;
 }
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+body::-webkit-scrollbar-track {
+  background: $white;
+  border-radius: 6px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(3, 99, 121);
+  border-radius: 20px;
+  border: 3px solid $white;
+}
 button,
 input,
 textarea {
@@ -28,6 +41,9 @@ textarea {
 }
 h1 {
   font-size: 2rem;
+}
+span {
+  color: $black;
 }
 i {
   font-size: 1.6rem;
@@ -40,7 +56,7 @@ i {
   width: 100%;
 }
 #content {
-  max-width: 90%;
+  max-width: 94vw;
   margin:0 auto;
   display: flex;
   flex-direction: column;
@@ -49,17 +65,16 @@ i {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 1rem;
+  gap: 1rem;
 }
 .section_1{
   flex-direction: column;
 }
 .section_2{
   flex-direction: row;
-  margin-left: -1rem;
 }
 .section_3{
   flex-direction: column;
-  margin-left: -1rem;
   flex-wrap: nowrap;
 }
 
@@ -75,18 +90,32 @@ i {
   border-width: 0;
 }
 
+
+.containerCharts {
+  width: 100%;
+  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+
 @media(max-width: 1080px) {
   html {
     font-size: 57%;
   }
 }
-@media(max-width: 820px) {
-  #v_hidden {
-    visibility: visible;
+@media(max-width: 800px) {
+  .containerCharts {
+    flex-direction: column;
   }
 }
 @media(max-width: 720px) {
   html {
     font-size: 50%;
+  }
+}
+@media(max-width: 650px) {
+  #v_hidden {
+    visibility: visible;
   }
 }

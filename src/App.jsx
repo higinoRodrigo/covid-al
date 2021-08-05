@@ -1,6 +1,7 @@
 import Nav from './components/nav/Nav.jsx'
 import Cards from './components/cards/Card.jsx'
 import CidadesBox from './components/cidadesBox/CidadesBox.jsx'
+import Charts from './components/charts/Charts.jsx'
 
 import './styles/global.scss'
 
@@ -50,6 +51,10 @@ function App() {
           <CidadesBox></CidadesBox>
         </div>
 
+        <div className="section_4">
+          <Charts />
+          <span>Fonte: Secretarias Municipais de Saúde. Alagoas, 2020</span>
+        </div>
       </div>
     </div>
 

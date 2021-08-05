@@ -1,6 +1,6 @@
 .containerCity {
   flex: 1;
-  margin: 1rem;
+  margin-bottom: 1rem;
   background: white;
   border-radius: 6px;
   padding: 1rem;
@@ -22,7 +22,7 @@
 
       &:focus { 
         border-color:#4dabe2;
-        outline: none;
+        outline: transparent;
       }
     }
 
@@ -49,7 +49,10 @@
   }
 
   .main {
-
+    span {
+      font-size: 1.4rem;
+      color: rgb(104, 104, 104);
+    }
     .infoMobile {
       display: flex;
       justify-content: flex-end;
@@ -90,15 +93,20 @@
           border-radius: 6px;
 
           th,td,tr {
+            font-size: 1.3rem;
+            line-height: 14px;
+            font-weight: 500;
             white-space: nowrap;
           }
-  
+
           thead{
   
             th {
               padding: 1.2rem 1.2rem 2rem 1.2rem;
               text-align: left;
               color: #193148;
+              font-weight: bold;
+              font-size: 1.2rem;
             }
           }
   
