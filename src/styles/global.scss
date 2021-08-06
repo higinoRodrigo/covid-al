@@ -18,6 +18,7 @@ body {
   font-size: clamp(14px, 1.6rem, 2vw);
   font-family: 'Poppins', sans-serif;
   color: $white;
+  overflow-x: hidden;
 }
 body::-webkit-scrollbar {
   width: 8px;
@@ -90,23 +91,17 @@ i {
   border-width: 0;
 }
 
-
-.containerCharts {
-  width: 100%;
-  gap: 2rem;
-  display: flex;
-  flex-direction: row;
+.fonteCharts {
+  display: block;
+  margin-top: -1.4rem;
+  color: rgb(107, 107, 107);
+  font-size: 1.2rem;
 }
 
 
 @media(max-width: 1080px) {
   html {
     font-size: 57%;
-  }
-}
-@media(max-width: 800px) {
-  .containerCharts {
-    flex-direction: column;
   }
 }
 @media(max-width: 720px) {

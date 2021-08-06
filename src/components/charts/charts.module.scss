@@ -1,12 +1,45 @@
-  span {
-    font-size: 1.2rem;
-    color: rgb(104, 104, 104);
-  }
-  .content {
-    background: white;
-    border-radius: 6px;
-    flex: 1;
-    padding: 1rem;
-    border: 1px solid rgba(149, 149, 149, 0.466);
+.containerCharts {
+  gap: 2rem;
+  
+}
 
+.containerChartGraphics {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+@media(max-width: 800px) {
+  .containerChartGraphics {
+    flex-direction: column;
   }
+}
+
+
+.chartsBoxPie {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.contentPie {
+  background: white;
+  border-radius: 6px;
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid rgba(149, 149, 149, 0.466);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  background: white;
+  border-radius: 6px;
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid rgba(149, 149, 149, 0.466);
+  display: flex;
+  flex-direction: column;
+}

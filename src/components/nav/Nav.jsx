@@ -12,10 +12,10 @@ export default function Nav() {
         <span className={styles.barraAzul}>/</span>
         <span>ALAGOAS</span>
       </div>
-      <div className={styles.optionsNav}>
+      {/* <div className={styles.optionsNav}>
         <i>Visão Geral</i>
         <i>Sobre</i>
-      </div>
+      </div> */}
     </div>
   )
 }

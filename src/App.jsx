@@ -53,7 +53,7 @@ function App() {
 
         <div className="section_4">
           <Charts />
-          <span>Fonte: Secretarias Municipais de Saúde. Alagoas, 2020</span>
+          <span className="fonteCharts">Fonte: Secretarias Municipais de Saúde. Alagoas, 2020</span>
         </div>
       </div>
     </div>
