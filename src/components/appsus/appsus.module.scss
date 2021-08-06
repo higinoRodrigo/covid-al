@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+
+  min-height: 200px;
+  margin: 32px 0;
+  padding: 22px 32px 16px;
+  border-radius: 6px;
+  box-shadow: 0 23px 42px 0 rgb(0 136 255 / 26%);
+  background: linear-gradient(344deg,#53b7ec 18%, #6b42d5 100%);
+
+  .textsContent {
+      display: flex;
+      flex-direction: column;
+
+      h1,h2,p {
+        margin-bottom: 2rem;
+      }
+
+      h1 {
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.4rem;
+        font-weight: normal;
+        color: rgb(231, 231, 231);
+      }
+
+    .containerLojas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      flex-direction: row;
+      margin-top: 2rem;
+      .contentLojas {
+        display: flex;
+        background: rgba(0, 0, 0, 0.192);
+        padding: 1rem;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .3s;
+
+        &:hover {
+          background: rgba(0, 0, 0, 0.329);
+        }
+        &:active {
+          transform: scale(.9)
+        }
+
+        img {
+          margin-right: 1.4rem;
+        }
+        .contentLojasText {
+          display: flex;
+          flex-direction: column;
+
+          span {
+            font-weight: normal;
+            font-size: 10px;
+            color: #fff;
+
+            &:last-child {
+              font-weight: bold;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+
+  .imgContent {
+    margin-bottom: -7rem;
+  }
+}
+
+@media(max-width: 750px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    .imgContent {
+      margin-top: 3rem;
+    }
+  }
+}

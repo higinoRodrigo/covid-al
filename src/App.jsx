@@ -2,6 +2,7 @@ import Nav from './components/nav/Nav.jsx'
 import Cards from './components/cards/Card.jsx'
 import CidadesBox from './components/cidadesBox/CidadesBox.jsx'
 import Charts from './components/charts/Charts.jsx'
+import Appsus from './components/appsus/Appsus.jsx'
 
 import './styles/global.scss'
 
@@ -55,6 +56,11 @@ function App() {
           <Charts />
           <span className="fonteCharts">Fonte: Secretarias Municipais de Saúde. Alagoas, 2020</span>
         </div>
+
+        <div className="section_5">
+          <Appsus />
+        </div>
+
       </div>
     </div>
 
