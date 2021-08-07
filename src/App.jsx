@@ -3,6 +3,7 @@ import Cards from './components/cards/Card.jsx'
 import CidadesBox from './components/cidadesBox/CidadesBox.jsx'
 import Charts from './components/charts/Charts.jsx'
 import Appsus from './components/appsus/Appsus.jsx'
+import InfosUteis from './components/infosUteis/InfosUteis.jsx'
 
 import './styles/global.scss'
 
@@ -16,12 +17,12 @@ function App() {
 
       <div id="content">
 
-        <div id="sections" className="section_1">
+        <div className="sections section_1">
           <h1>Informativo Coronavírus</h1>
           <span>Atualizado em: 01/08/2021 18:50</span>
         </div>
 
-        <div id="sections" className="section_2">
+        <div className="sections section_2">
           <Cards 
             titulo="Casos recuperados"
             dados="18.645.993"
@@ -58,6 +59,10 @@ function App() {
         </div>
 
         <div className="section_5">
+          <InfosUteis />
+        </div>
+
+        <div className="section_6">
           <Appsus />
         </div>
 

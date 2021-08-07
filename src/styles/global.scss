@@ -62,7 +62,7 @@ i {
   display: flex;
   flex-direction: column;
 }
-#sections{
+.sections{
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 1rem;
@@ -77,6 +77,9 @@ i {
 .section_3{
   flex-direction: column;
   flex-wrap: nowrap;
+}
+.section_4 {
+  margin-bottom: 4rem;
 }
 
 .sr-only {
@@ -98,6 +101,25 @@ i {
   font-size: 1.2rem;
 }
 
+.conteudoInfosCovid.active {
+  display: flex;
+  animation: efeitoInfos .5s;
+}
+@keyframes efeitoInfos {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.conteudoInfosCovid {
+  display: none;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  padding: 2rem;
+}
 
 @media(max-width: 1080px) {
   html {
