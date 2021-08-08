@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo Coronavírus Alagoas" title="Coronavírus Alagoas" src="https://imgur.com/a/CqpwcIh" width="220px" />
+  <img alt="Logo Coronavírus Alagoas" title="Coronavírus Alagoas" src="https://i.imgur.com/dvXBsDk.png" width="220px" />
 </h1>
 
 <p align="center">
@@ -16,7 +16,7 @@
 <br>
 
 <p align="center">
-  <img alt="Foto do site completo coronavírus alagoas" src="https://imgur.com/a/Witt48W" width="100%">
+  <img alt="Foto do site completo coronavírus alagoas" src="https://i.imgur.com/A7V9jCB.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
