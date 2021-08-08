@@ -26,27 +26,27 @@ function App() {
         <div className="sections section_2">
           <Cards 
             titulo="Casos recuperados"
-            dados="18.645.993"
+            dados="1.645.993"
           />
           <Cards 
             titulo="Casos confirmados"
             tituloAuxiliar1="Acumulado"
-            dadosAuxiliar1="19.938.358"
+            dadosAuxiliar1="838.358"
 
             tituloAuxiliar2="Casos novos"
-            dadosAuxiliar2="20.503"
+            dadosAuxiliar2="2.503"
           />
-          <Cards titulo="Em acompanhamento" dados="735.531" />
+          <Cards titulo="Em acompanhamento" dados="5.531" />
           <Cards 
             titulo="Óbitos confirmados"
             tituloAuxiliar1="Acumulado"
-            dadosAuxiliar1="556.834"
+            dadosAuxiliar1="1.503"
 
             tituloAuxiliar2="Casos novos"
-            dadosAuxiliar2="20.503"
+            dadosAuxiliar2="2.503"
 
             tituloAuxiliar3="Letalidade"
-            dadosAuxiliar3="2.8%"
+            dadosAuxiliar3="1.2%"
           />
         </div>
       

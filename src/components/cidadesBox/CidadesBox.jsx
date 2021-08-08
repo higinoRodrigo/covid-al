@@ -39,7 +39,7 @@ export default function CidadesBox() {
             </thead>
             <tbody>
               <tr>
-                <td>Girau do Ponciano</td>
+                <td>São miguel dos milagres</td>
                 <td>154</td>
                 <td>1.548</td>
                 <td>805</td>
