@@ -41,7 +41,20 @@ span {
 .optionsNav {
   display: flex;
 
-  i:nth-child(1){
+  a {
+    color: #193148;
+    font-weight: bold;
+    font-size: 1.4rem;
+    &:active {
+      color: rgb(47, 47, 47);
+    }
+  }
+
+  .navLink {
+    cursor: pointer;
+  }
+
+  .navLink:nth-child(1){
     margin-right: 1rem;
   }
 }

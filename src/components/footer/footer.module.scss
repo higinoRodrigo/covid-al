@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 8rem 0 5rem 0;
+
+  a {
+    color: #193148;
+
+    p {
+      color: #193148;
+      font-weight: bold;
+      font-size: 1.6rem;
+    }
+  }
+}

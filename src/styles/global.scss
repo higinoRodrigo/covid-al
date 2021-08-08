@@ -104,6 +104,7 @@ i {
 .conteudoInfosCovid.active {
   display: flex;
   animation: efeitoInfos .5s;
+  align-items: flex-start;
 }
 @keyframes efeitoInfos {
   from {
@@ -120,6 +121,7 @@ i {
   align-items: center;
   padding: 2rem;
 }
+
 
 @media(max-width: 1080px) {
   html {

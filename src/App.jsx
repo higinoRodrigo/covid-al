@@ -4,6 +4,7 @@ import CidadesBox from './components/cidadesBox/CidadesBox.jsx'
 import Charts from './components/charts/Charts.jsx'
 import Appsus from './components/appsus/Appsus.jsx'
 import InfosUteis from './components/infosUteis/InfosUteis.jsx'
+import Footer from './components/footer/Footer.jsx'
 
 import './styles/global.scss'
 
@@ -17,7 +18,7 @@ function App() {
 
       <div id="content">
 
-        <div className="sections section_1">
+        <div id="geral" className="sections section_1">
           <h1>Informativo Coronavírus</h1>
           <span>Atualizado em: 01/08/2021 18:50</span>
         </div>
@@ -55,10 +56,10 @@ function App() {
 
         <div className="section_4">
           <Charts />
-          <span className="fonteCharts">Fonte: Secretarias Municipais de Saúde. Alagoas, 2020</span>
+          <span id="perguntas" className="fonteCharts">Fonte: Secretarias Municipais de Saúde. Alagoas, 2020</span>
         </div>
 
-        <div className="section_5">
+        <div  className="section_5">
           <InfosUteis />
         </div>
 
@@ -66,6 +67,9 @@ function App() {
           <Appsus />
         </div>
 
+        <div className="section_7">
+          <Footer/>
+        </div>
       </div>
     </div>
 

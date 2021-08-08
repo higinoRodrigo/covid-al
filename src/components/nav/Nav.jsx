@@ -1,5 +1,4 @@
 import React from 'react';
-// import Link from "react-dom";
 
 import styles from './nav.module.scss'
 
@@ -12,10 +11,10 @@ export default function Nav() {
         <span className={styles.barraAzul}>/</span>
         <span>ALAGOAS</span>
       </div>
-      {/* <div className={styles.optionsNav}>
-        <i>Visão Geral</i>
-        <i>Sobre</i>
-      </div> */}
+      <div className={styles.optionsNav}>
+        <a href="#geral" className={styles.navLink}>Visão Geral</a>
+        <a href="#perguntas" className={styles.navLink}>Perguntas Frequentes</a>
+      </div>
     </div>
   )
 }
